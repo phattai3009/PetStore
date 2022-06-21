@@ -1,0 +1,78 @@
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\DTO.dll.config
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\DTO.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\DTO.pdb
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\BouncyCastle.Crypto.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Buffers.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Memory.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Numerics.Vectors.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\BouncyCastle.Crypto.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Buffers.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Memory.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Numerics.Vectors.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\HocTap\HK6\QuanLyThuCung\DTO\obj\Debug\DTO.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\obj\Debug\DTO.pdb
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\Guna.UI2.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\System.Text.Encoding.CodePages.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\AForge.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\AForge.Video.DirectShow.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\AForge.Video.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\MailKit.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\MimeKit.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\zxing.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\zxing.presentation.dll
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\AForge.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\AForge.Video.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\AForge.Video.DirectShow.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\MailKit.pdb
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\MailKit.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\MimeKit.pdb
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\MimeKit.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\zxing.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\bin\Debug\zxing.presentation.xml
+E:\HocTap\HK6\QuanLyThuCung\DTO\obj\Debug\DTO.csproj.CopyComplete
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\DTO.dll.config
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\DTO.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\DTO.pdb
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\AForge.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\AForge.Video.DirectShow.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\AForge.Video.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\BouncyCastle.Crypto.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\Guna.UI2.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\MailKit.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\MimeKit.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\QRCoder.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Buffers.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Memory.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Numerics.Vectors.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\zxing.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\zxing.presentation.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\AForge.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\AForge.Video.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\AForge.Video.DirectShow.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\BouncyCastle.Crypto.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\MailKit.pdb
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\MailKit.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\MimeKit.pdb
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\MimeKit.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Buffers.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Memory.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Numerics.Vectors.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Text.Encoding.CodePages.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\zxing.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\bin\Debug\zxing.presentation.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\obj\Debug\DTO.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DTO\obj\Debug\DTO.pdb

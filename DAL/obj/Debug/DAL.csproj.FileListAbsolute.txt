@@ -1,0 +1,42 @@
+E:\HocTap\HK6\QuanLyThuCung\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\HocTap\HK6\QuanLyThuCung\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\DAL.dll.config
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\DAL.dll
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\DAL.pdb
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\DTO.dll
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\DTO.pdb
+E:\HocTap\HK6\QuanLyThuCung\DAL\obj\Debug\DAL.dll
+E:\HocTap\HK6\QuanLyThuCung\DAL\obj\Debug\DAL.pdb
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\DTO.dll.config
+E:\HocTap\HK6\QuanLyThuCung\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\AForge.dll
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\AForge.Video.DirectShow.dll
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\AForge.Video.dll
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\zxing.dll
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\zxing.presentation.dll
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\AForge.xml
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\AForge.Video.xml
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\AForge.Video.DirectShow.xml
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\zxing.xml
+E:\HocTap\HK6\QuanLyThuCung\DAL\bin\Debug\zxing.presentation.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\DAL.dll.config
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\DAL.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\DAL.pdb
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\AForge.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\AForge.Video.DirectShow.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\AForge.Video.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\DTO.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\QRCoder.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\zxing.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\zxing.presentation.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\DTO.pdb
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\DTO.dll.config
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\AForge.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\AForge.Video.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\AForge.Video.DirectShow.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\zxing.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\bin\Debug\zxing.presentation.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\obj\Debug\DAL.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\obj\Debug\DAL.pdb

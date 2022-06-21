@@ -1,0 +1,51 @@
+E:\HocTap\HK6\QuanLyThuCung\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\HocTap\HK6\QuanLyThuCung\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\BLL.dll
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\BLL.pdb
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\DAL.dll
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\DTO.dll
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\DAL.pdb
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\DAL.dll.config
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\DTO.pdb
+E:\HocTap\HK6\QuanLyThuCung\BLL\obj\Debug\BLL.dll
+E:\HocTap\HK6\QuanLyThuCung\BLL\obj\Debug\BLL.pdb
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\DTO.dll.config
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\Guna.UI2.dll
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\BLL.dll.config
+E:\HocTap\HK6\QuanLyThuCung\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\AForge.dll
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\AForge.Video.DirectShow.dll
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\AForge.Video.dll
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\zxing.dll
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\zxing.presentation.dll
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\AForge.xml
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\AForge.Video.xml
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\AForge.Video.DirectShow.xml
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\zxing.xml
+E:\HocTap\HK6\QuanLyThuCung\BLL\bin\Debug\zxing.presentation.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\BLL.dll.config
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\BLL.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\BLL.pdb
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\AForge.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\AForge.Video.DirectShow.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\AForge.Video.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\DAL.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\DTO.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\Guna.UI2.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\QRCoder.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\zxing.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\zxing.presentation.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\DAL.pdb
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\DAL.dll.config
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\DTO.pdb
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\DTO.dll.config
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\AForge.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\AForge.Video.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\AForge.Video.DirectShow.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\zxing.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\bin\Debug\zxing.presentation.xml
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\obj\Debug\BLL.dll
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\obj\Debug\BLL.pdb
+E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\obj\Debug\BLL.csproj.CopyComplete

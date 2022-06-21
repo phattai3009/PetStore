@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E79327CD-43A9-4824-93A6-8B6378CFF1FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DoAn_DotNet</RootNamespace>
+    <AssemblyName>DoAn_DotNet</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Guna.UI2, Version=2.0.3.2, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.2\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.4.3.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.4.3\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="zxing, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net47\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net47\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Custom\Category.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom\Category.Designer.cs">
+      <DependentUpon>Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\Encrypt.cs" />
+    <Compile Include="Custom\loadMaDH.cs" />
+    <Compile Include="Custom\Order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom\Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmCode.Designer.cs">
+      <DependentUpon>frmCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmCustomTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmCustomTB.Designer.cs">
+      <DependentUpon>frmCustomTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmDetailUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmDetailUser.Designer.cs">
+      <DependentUpon>frmDetailUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmDoiMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmDoiMK.Designer.cs">
+      <DependentUpon>frmDoiMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmOrder.Designer.cs">
+      <DependentUpon>frmOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmDonDatMua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmDonDatMua.Designer.cs">
+      <DependentUpon>frmDonDatMua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmKhachHang.Designer.cs">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmNhaCungCap.Designer.cs">
+      <DependentUpon>frmNhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmProduct.Designer.cs">
+      <DependentUpon>frmProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmQLDoiTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmQLDoiTra.Designer.cs">
+      <DependentUpon>frmQLDoiTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmQLDonHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmQLDonHang.Designer.cs">
+      <DependentUpon>frmQLDonHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmQLGiongLoai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmQLGiongLoai.Designer.cs">
+      <DependentUpon>frmQLGiongLoai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmQLNhapHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmQLNhapHang.Designer.cs">
+      <DependentUpon>frmQLNhapHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmQLThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmQLThongKe.Designer.cs">
+      <DependentUpon>frmQLThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmQLUserAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmQLUserAdmin.Designer.cs">
+      <DependentUpon>frmQLUserAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmSell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmSell.Designer.cs">
+      <DependentUpon>frmSell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmThanhToan.Designer.cs">
+      <DependentUpon>frmThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeColor.cs" />
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom\Category.resx">
+      <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom\Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmCode.resx">
+      <DependentUpon>frmCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmCustomTB.resx">
+      <DependentUpon>frmCustomTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmDetailUser.resx">
+      <DependentUpon>frmDetailUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmDoiMK.resx">
+      <DependentUpon>frmDoiMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmOrder.resx">
+      <DependentUpon>frmOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmDonDatMua.resx">
+      <DependentUpon>frmDonDatMua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmKhachHang.resx">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmNhaCungCap.resx">
+      <DependentUpon>frmNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmProduct.resx">
+      <DependentUpon>frmProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmQLDoiTra.resx">
+      <DependentUpon>frmQLDoiTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmQLDonHang.resx">
+      <DependentUpon>frmQLDonHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmQLGiongLoai.resx">
+      <DependentUpon>frmQLGiongLoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmQLNhapHang.resx">
+      <DependentUpon>frmQLNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmQLThongKe.resx">
+      <DependentUpon>frmQLThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmQLUserAdmin.resx">
+      <DependentUpon>frmQLUserAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmSell.resx">
+      <DependentUpon>frmSell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmThanhToan.resx">
+      <DependentUpon>frmThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\add.png" />
+    <Content Include="Images\book32.png" />
+    <Content Include="Images\box %281%29.png" />
+    <Content Include="Images\box.png" />
+    <Content Include="Images\business-presentation-16.png" />
+    <Content Include="Images\business-presentation-32.png" />
+    <Content Include="Images\button.png" />
+    <Content Include="Images\cargo.png" />
+    <Content Include="Images\cho.png" />
+    <Content Include="Images\close-cross-16.png" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\curriculum-16.png" />
+    <Content Include="Images\curriculum-32.png" />
+    <Content Include="Images\customer.png" />
+    <Content Include="Images\debit-card-16.png" />
+    <Content Include="Images\debit-card-32.png" />
+    <Content Include="Images\debit-card-64.png" />
+    <Content Include="Images\delete-16.png" />
+    <Content Include="Images\delete16.png" />
+    <Content Include="Images\dog-16.png" />
+    <Content Include="Images\dog-32.png" />
+    <Content Include="Images\dog-64.png" />
+    <Content Include="Images\dog.png" />
+    <Content Include="Images\edit-16.png" />
+    <Content Include="Images\edit-32.png" />
+    <Content Include="Images\edit16.png" />
+    <Content Include="Images\error-16.png" />
+    <Content Include="Images\excel-16.png" />
+    <Content Include="Images\excel-32.png" />
+    <Content Include="Images\exit %281%29.png" />
+    <Content Include="Images\exit-16.png" />
+    <Content Include="Images\exit-32.png" />
+    <Content Include="Images\exit-64.png" />
+    <Content Include="Images\exit.png" />
+    <Content Include="Images\exit16.png" />
+    <Content Include="Images\fast-forward-16.png" />
+    <Content Include="Images\icon-16.png" />
+    <Content Include="Images\icon-32.png" />
+    <Content Include="Images\icon-64.png" />
+    <Content Include="Images\id-card-16.png" />
+    <Content Include="Images\id-card-32.png" />
+    <Content Include="Images\id-card-64.png" />
+    <Content Include="Images\img.png" />
+    <Content Include="Images\information %281%29.png" />
+    <Content Include="Images\information %282%29.png" />
+    <Content Include="Images\information.png" />
+    <Content Include="Images\inventory.png" />
+    <Content Include="Images\left-arrow.png" />
+    <Content Include="Images\lock-16.png" />
+    <Content Include="Images\lock-32.png" />
+    <Content Include="Images\lock-64.png" />
+    <Content Include="Images\login-16.png" />
+    <Content Include="Images\login-32.png" />
+    <Content Include="Images\loginp-64.png" />
+    <Content Include="Images\logo.PNG" />
+    <Content Include="Images\logout.png" />
+    <Content Include="Images\man %282%29.png" />
+    <Content Include="Images\man %283%29.png" />
+    <Content Include="Images\management.png" />
+    <Content Include="Images\maximize.png" />
+    <Content Include="Images\meo.png" />
+    <Content Include="Images\minimize.png" />
+    <Content Include="Images\money %281%29.png" />
+    <Content Include="Images\money.png" />
+    <Content Include="Images\network-16.png" />
+    <Content Include="Images\network-32.png" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\online-course-16.png" />
+    <Content Include="Images\online-course-32.png" />
+    <Content Include="Images\password-code.png" />
+    <Content Include="Images\password.png" />
+    <Content Include="Images\pet-16.png" />
+    <Content Include="Images\pet-32.png" />
+    <Content Include="Images\pet-64.png" />
+    <Content Include="Images\pet-care.png" />
+    <Content Include="Images\pets %281%29.png" />
+    <Content Include="Images\pets.png" />
+    <Content Include="Images\previous.png" />
+    <Content Include="Images\profile.png" />
+    <Content Include="Images\programmer %281%29.png" />
+    <Content Include="Images\programmer %282%29.png" />
+    <Content Include="Images\question-16.png" />
+    <Content Include="Images\question-32.png" />
+    <Content Include="Images\question-64.png" />
+    <Content Include="Images\refresh16.png" />
+    <Content Include="Images\reload-16.png" />
+    <Content Include="Images\reload-32.png" />
+    <Content Include="Images\reset-password.png" />
+    <Content Include="Images\revenue.png" />
+    <Content Include="Images\right-arrow.png" />
+    <Content Include="Images\save16.png" />
+    <Content Include="Images\shopping-cart %281%29.png" />
+    <Content Include="Images\shopping-cart.png" />
+    <Content Include="Images\success-16.png" />
+    <Content Include="Images\team.png" />
+    <Content Include="Images\unlock-16.png" />
+    <Content Include="Images\unlock-32.png" />
+    <Content Include="Images\unlock-64.png" />
+    <Content Include="Images\user.png" />
+    <Content Include="Images\view16.png" />
+    <Content Include="Images\worker-16.png" />
+    <Content Include="Images\wrench-16.png" />
+    <Content Include="Images\wrench-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{e5fddc0c-a680-408a-a2c7-ab0d7535f324}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{d07fdec2-fee3-433b-b68b-17866b4d5410}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{c3aca6ec-114d-45bf-8156-7c6f561b9724}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
