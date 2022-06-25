@@ -1,8 +1,8 @@
 # Thành Viên
 | MSSV          | Họ tên                   | Nội Dung Thực Hiện                              |
 |---------------|--------------------------|-------------------------------------------------|
-| 2001190243    | Đinh Phát Tài            | Design - Code chính - SQL - Phân Tích Nghiệp Vụ |
-| 2001190249    | Lê Nguyễn Đại Đức Tâm    | Code phụ - Thiết kế SQL - Word                  |
+| 2001190243    | Đinh Phát Tài            | Design - Code - SQL - Phân Tích Nghiệp Vụ       |
+
 
 # Giới Thiệu Phần Mền Quản Lý Cửa Hàng Thú Cưng - Introducing Pet Store Management Software
 Phần mền quản lý cửa hàng thú cưng - Pet Store Management Software
